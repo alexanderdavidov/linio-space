@@ -8,20 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		D14893F51E990B2000EC289A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14893F41E990B2000EC289A /* AppDelegate.swift */; };
-		D14893F71E990B2000EC289A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14893F61E990B2000EC289A /* ViewController.swift */; };
 		D14893FA1E990B2000EC289A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14893F81E990B2000EC289A /* Main.storyboard */; };
 		D14893FC1E990B2000EC289A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14893FB1E990B2000EC289A /* Assets.xcassets */; };
 		D14893FF1E990B2000EC289A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14893FD1E990B2000EC289A /* LaunchScreen.storyboard */; };
+		D14894071E990BCD00EC289A /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14894061E990BCD00EC289A /* NoteTableViewController.swift */; };
+		D14894091E990E3B00EC289A /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14894081E990E3B00EC289A /* NoteTableViewCell.swift */; };
+		D148940C1E9916C500EC289A /* DetailNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148940B1E9916C500EC289A /* DetailNoteViewController.swift */; };
+		D14894101E991CBB00EC289A /* DetailNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148940F1E991CBB00EC289A /* DetailNoteTableViewCell.swift */; };
+		D14894131E99274A00EC289A /* NewStationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14894121E99274A00EC289A /* NewStationTableViewController.swift */; };
+		D14894361E99328000EC289A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14894351E99328000EC289A /* CoreDataStack.swift */; };
+		D14894391E99336800EC289A /* LinioSpace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D14894371E99336800EC289A /* LinioSpace.xcdatamodeld */; };
+		D148943B1E994D3700EC289A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148943A1E994D3700EC289A /* ContentViewController.swift */; };
+		D148943D1E994D5700EC289A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148943C1E994D5700EC289A /* PageViewController.swift */; };
+		D14894401E9BEA2300EC289A /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148943F1E9BEA2300EC289A /* AboutTableViewController.swift */; };
+		D14894421E9BEFD700EC289A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14894411E9BEFD700EC289A /* WebViewController.swift */; };
+		D14894441E9C01AE00EC289A /* MoscowMapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14894431E9C01AE00EC289A /* MoscowMapTableViewController.swift */; };
+		D14894481E9C051100EC289A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14894471E9C051100EC289A /* CloudKit.framework */; };
+		D148944A1E9C0A1D00EC289A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14894491E9C0A1D00EC289A /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D14893F11E990B2000EC289A /* LinioSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinioSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14893F41E990B2000EC289A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D14893F61E990B2000EC289A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D14893F91E990B2000EC289A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14893FB1E990B2000EC289A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14893FE1E990B2000EC289A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D14894001E990B2000EC289A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14894061E990BCD00EC289A /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		D14894081E990E3B00EC289A /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		D148940B1E9916C500EC289A /* DetailNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNoteViewController.swift; sourceTree = "<group>"; };
+		D148940F1E991CBB00EC289A /* DetailNoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNoteTableViewCell.swift; sourceTree = "<group>"; };
+		D14894121E99274A00EC289A /* NewStationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewStationTableViewController.swift; sourceTree = "<group>"; };
+		D14894351E99328000EC289A /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D14894381E99336800EC289A /* LinioSpace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinioSpace.xcdatamodel; sourceTree = "<group>"; };
+		D148943A1E994D3700EC289A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		D148943C1E994D5700EC289A /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		D148943F1E9BEA2300EC289A /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		D14894411E9BEFD700EC289A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D14894431E9C01AE00EC289A /* MoscowMapTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoscowMapTableViewController.swift; sourceTree = "<group>"; };
+		D14894451E9C04FA00EC289A /* LinioSpace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LinioSpace.entitlements; sourceTree = "<group>"; };
+		D14894471E9C051100EC289A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		D14894491E9C0A1D00EC289A /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14894481E9C051100EC289A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +68,7 @@
 			children = (
 				D14893F31E990B2000EC289A /* LinioSpace */,
 				D14893F21E990B2000EC289A /* Products */,
+				D14894461E9C051100EC289A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,59 @@
 		D14893F31E990B2000EC289A /* LinioSpace */ = {
 			isa = PBXGroup;
 			children = (
+				D14894451E9C04FA00EC289A /* LinioSpace.entitlements */,
 				D14893F41E990B2000EC289A /* AppDelegate.swift */,
-				D14893F61E990B2000EC289A /* ViewController.swift */,
+				D14894371E99336800EC289A /* LinioSpace.xcdatamodeld */,
 				D14893F81E990B2000EC289A /* Main.storyboard */,
+				D14894491E9C0A1D00EC289A /* ListTableViewController.swift */,
+				D14894431E9C01AE00EC289A /* MoscowMapTableViewController.swift */,
+				D14894411E9BEFD700EC289A /* WebViewController.swift */,
+				D148943F1E9BEA2300EC289A /* AboutTableViewController.swift */,
+				D148943E1E994D6600EC289A /* Pages */,
+				D14894121E99274A00EC289A /* NewStationTableViewController.swift */,
+				D14894351E99328000EC289A /* CoreDataStack.swift */,
+				D14894111E991CC100EC289A /* Detail */,
+				D148940A1E990E5100EC289A /* Note */,
 				D14893FB1E990B2000EC289A /* Assets.xcassets */,
 				D14893FD1E990B2000EC289A /* LaunchScreen.storyboard */,
 				D14894001E990B2000EC289A /* Info.plist */,
 			);
 			path = LinioSpace;
+			sourceTree = "<group>";
+		};
+		D148940A1E990E5100EC289A /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				D14894081E990E3B00EC289A /* NoteTableViewCell.swift */,
+				D14894061E990BCD00EC289A /* NoteTableViewController.swift */,
+			);
+			name = Note;
+			sourceTree = "<group>";
+		};
+		D14894111E991CC100EC289A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D148940F1E991CBB00EC289A /* DetailNoteTableViewCell.swift */,
+				D148940B1E9916C500EC289A /* DetailNoteViewController.swift */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		D148943E1E994D6600EC289A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				D148943A1E994D3700EC289A /* ContentViewController.swift */,
+				D148943C1E994D5700EC289A /* PageViewController.swift */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		D14894461E9C051100EC289A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D14894471E9C051100EC289A /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +172,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V783YNE53K;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,8 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14893F71E990B2000EC289A /* ViewController.swift in Sources */,
 				D14893F51E990B2000EC289A /* AppDelegate.swift in Sources */,
+				D148943D1E994D5700EC289A /* PageViewController.swift in Sources */,
+				D14894101E991CBB00EC289A /* DetailNoteTableViewCell.swift in Sources */,
+				D14894401E9BEA2300EC289A /* AboutTableViewController.swift in Sources */,
+				D14894131E99274A00EC289A /* NewStationTableViewController.swift in Sources */,
+				D148940C1E9916C500EC289A /* DetailNoteViewController.swift in Sources */,
+				D148943B1E994D3700EC289A /* ContentViewController.swift in Sources */,
+				D14894421E9BEFD700EC289A /* WebViewController.swift in Sources */,
+				D14894071E990BCD00EC289A /* NoteTableViewController.swift in Sources */,
+				D14894391E99336800EC289A /* LinioSpace.xcdatamodeld in Sources */,
+				D14894091E990E3B00EC289A /* NoteTableViewCell.swift in Sources */,
+				D14894441E9C01AE00EC289A /* MoscowMapTableViewController.swift in Sources */,
+				D14894361E99328000EC289A /* CoreDataStack.swift in Sources */,
+				D148944A1E9C0A1D00EC289A /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LinioSpace/LinioSpace.entitlements;
 				DEVELOPMENT_TEAM = V783YNE53K;
 				INFOPLIST_FILE = LinioSpace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LinioSpace/LinioSpace.entitlements;
 				DEVELOPMENT_TEAM = V783YNE53K;
 				INFOPLIST_FILE = LinioSpace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +398,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D14894371E99336800EC289A /* LinioSpace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D14894381E99336800EC289A /* LinioSpace.xcdatamodel */,
+			);
+			currentVersion = D14894381E99336800EC289A /* LinioSpace.xcdatamodel */;
+			path = LinioSpace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D14893E91E990B1F00EC289A /* Project object */;
 }
